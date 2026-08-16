@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.2.2</Version>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+        <DefineConstants>ERR</DefineConstants>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <RootNamespace>pathmage64.ToolKit</RootNamespace>
+        <Title>pathmage64.ToolKit</Title>
+        <PackageId>pathmage64.ToolKit</PackageId>
+        <Authors>Adam Knight</Authors>
+        <RepositoryUrl>https://github.com/pathmage64/csharp-tool-kit</RepositoryUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../LICENSE" Pack="true" PackagePath=""/>
+        <None Include="../README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+</Project>

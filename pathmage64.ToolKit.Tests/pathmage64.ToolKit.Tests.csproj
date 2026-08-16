@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>pathmage64.ToolKit.Tests</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\pathmage64.ToolKit\pathmage64.ToolKit.csproj" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <RootNamespace>pathmage64.ToolKit.Tests</RootNamespace>
+    </PropertyGroup>
+
+</Project>
