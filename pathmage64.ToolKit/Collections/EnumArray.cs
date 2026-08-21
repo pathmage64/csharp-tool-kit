@@ -38,6 +38,9 @@ public readonly struct EnumArray<TEnum, T>() : IEnumerable<T>
 		}
 	}
 
+	public EnumArray(int custom_length)
+		: this(new T[custom_length]) {}
+
 	public void Add(TEnum e, T value)
 	{
 		this[e] = value;
